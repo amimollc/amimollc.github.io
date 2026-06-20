@@ -12,7 +12,7 @@
     <!-- Font Awesome 6 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="icon" type="image/svg+xml" href="favicon.png">
-      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="style.css?v=1.0.1">
     
 </head>
 <body>
@@ -86,7 +86,27 @@
             </div>
         </div>
     </section>
-
+<!-- Cookie & Privacy Consent Modal -->
+<div id="consentOverlay" class="consent-overlay">
+    <div class="consent-modal">
+        <div class="consent-icon">🍪</div>
+        <h2>We value your privacy</h2>
+        <p>
+            We use cookies and similar technologies to enhance your browsing experience,
+            analyze site traffic, and serve personalized ads. By clicking 
+            <strong>"Accept All"</strong>, you consent to our use of cookies and agree 
+            to our <a href="terms-privacy.html" target="_blank">Privacy Policy</a> 
+            and <a href="terms-privacy.html#terms" target="_blank">Terms of Service</a>.
+        </p>
+        <p class="consent-small">
+            You can change your preferences at any time.
+        </p>
+        <div class="consent-actions">
+            <button id="acceptAllBtn" class="btn btn-primary">Accept All</button>
+            <button id="learnMoreBtn" class="btn btn-secondary">Learn More</button>
+        </div>
+    </div>
+</div>
     <!-- ────── About ────── -->
     <section id="about" style="background: var(--gray-50);">
         <div class="container">
@@ -180,6 +200,6 @@
     </a>
 
     <!-- Smooth scroll offset & Back‑to‑top visibility -->
-    <script src="main.js"></script>
+    <script src="main.js?v=1.0.1"></script>
 </body>
 </html>
