@@ -1,86 +1,402 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>Privacy Policy – Amimo Discovery</title>
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link rel="manifest" href="manifest.json">
-  <link rel="icon" type="image/png" href="/amimodiscoverynews/icon-512.png">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy – Amimo LLC</title>
+    <meta name="description" content="Privacy Policy for Amimo LLC. Learn how we collect, use, and protect your personal data in compliance with Google Ads and global privacy laws." />
+    <link rel="canonical" href="https://www.amimo.com/privacy" />
+
+    <style>
+        /* ── Reset & base ── */
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: #f8fafc;
+            color: #0b1a33;
+            line-height: 1.7;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 24px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.06);
+            padding: 2.5rem 2rem;
+        }
+
+        @media (min-width: 640px) {
+            .container {
+                padding: 3.5rem 3rem;
+            }
+            body {
+                padding: 3rem 1.5rem;
+            }
+        }
+
+        /* ── Navigation ── */
+        .main-nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 1.5rem;
+            border-bottom: 2px solid #eef2f6;
+            margin-bottom: 2.5rem;
+        }
+
+        .nav-brand {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #0b1a33;
+            text-decoration: none;
+            letter-spacing: -0.02em;
+        }
+
+        .nav-brand span {
+            color: #1a4c7a;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: #3d4e66;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: #1a4c7a;
+        }
+
+        /* ── Typography ── */
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            margin-bottom: 0.25rem;
+        }
+
+        .subhead {
+            color: #4a5a72;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #eef2f6;
+            padding-bottom: 1.5rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-top: 2.5rem;
+            margin-bottom: 0.75rem;
+            color: #0b1a33;
+        }
+
+        h2:first-of-type {
+            margin-top: 0;
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-top: 1.5rem;
+            margin-bottom: 0.4rem;
+            color: #142a44;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: #1f334a;
+        }
+
+        ul,
+        ol {
+            margin: 0.75rem 0 1.25rem 1.5rem;
+            color: #1f334a;
+        }
+
+        li {
+            margin-bottom: 0.4rem;
+        }
+
+        a {
+            color: #1a4c7a;
+            text-decoration: underline;
+            text-underline-offset: 2px;
+            font-weight: 500;
+        }
+
+        a:hover {
+            color: #0d3557;
+        }
+
+        .highlight-box {
+            background: #f1f8fe;
+            border-left: 4px solid #1a4c7a;
+            padding: 1.25rem 1.5rem;
+            border-radius: 12px;
+            margin: 1.5rem 0;
+        }
+
+        .highlight-box strong {
+            color: #0b1a33;
+        }
+
+        .last-updated {
+            font-size: 0.9rem;
+            color: #5a6f88;
+            border-top: 1px solid #e4eaef;
+            padding-top: 1.5rem;
+            margin-top: 2.5rem;
+        }
+
+        .footer {
+            margin-top: 3.5rem;
+            padding-top: 1.5rem;
+            border-top: 2px solid #eef2f6;
+            font-size: 0.9rem;
+            color: #5a6f88;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 0.5rem;
+        }
+
+        .footer a {
+            color: #3d5f7a;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 1.5rem 1rem;
+            }
+            h1 {
+                font-size: 1.7rem;
+            }
+        }
+    </style>
 </head>
+
 <body>
-  <!-- Header -->
-  <div class="main-header">
-    <div class="logo-area">
-      <button class="hamburger" id="backBtn" onclick="history.back()"><i class="fas fa-arrow-left"></i></button>
-      <div class="logo">Amimo Discovery</div>
+
+    <div class="container">
+
+        <!-- ─── NAVIGATION ─── -->
+        <nav class="main-nav">
+            <a href="index.html" class="nav-brand">Amimo<span>LLC</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="privacy.html" class="active">Privacy</a></li>
+                <li><a href="terms-privacy.html#terms">Terms</a></li>
+            </ul>
+        </nav>
+
+        <!-- ─── HEADER ─── -->
+        <h1>Privacy Policy</h1>
+        <div class="subhead">
+            <strong>Effective Date:</strong> June 24, 2026
+            <br />
+            Amimo LLC (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy.
+        </div>
+
+        <!-- ─── CONTENT ─── -->
+
+        <h2>1. Introduction</h2>
+        <p>
+            This Privacy Policy explains how Amimo LLC collects, uses, discloses, and safeguards your information
+            when you visit our website, use our applications, or engage with our services (collectively, the
+            &quot;Services&quot;). Please read this policy carefully. By using our Services, you consent to the
+            data practices described in this policy.
+        </p>
+
+        <div class="highlight-box">
+            <strong>Google Ads Compliance:</strong> We use Google Ads and other advertising partners.
+            This Privacy Policy discloses how we collect and use data for personalized advertising,
+            and we provide you with choices to control your data as required by Google's EU User Consent
+            Policy and applicable laws (GDPR / CCPA).
+        </div>
+
+        <h2>2. Information We Collect</h2>
+
+        <h3>a. Information You Provide</h3>
+        <ul>
+            <li>Contact information (name, email address, phone number).</li>
+            <li>Account credentials (username, password).</li>
+            <li>Communications you send to us (inquiries, feedback, support requests).</li>
+            <li>Any other information you voluntarily submit through forms or surveys.</li>
+        </ul>
+
+        <h3>b. Automatically Collected Information</h3>
+        <ul>
+            <li><strong>Device &amp; Usage Data:</strong> IP address, browser type, operating system,
+                referring URLs, pages visited, time spent, and clickstream data.</li>
+            <li><strong>Cookies &amp; Tracking Technologies:</strong> We use cookies, web beacons, and
+                similar technologies to enhance your experience, analyze trends, and deliver targeted
+                advertising. For more details, see Section 6 (Cookies) below.</li>
+        </ul>
+
+        <h3>c. Information from Third Parties</h3>
+        <ul>
+            <li>Analytics providers (e.g., Google Analytics) and advertising partners (e.g., Google Ads)
+                may share aggregated or de‑identified data with us.</li>
+        </ul>
+
+        <h2>3. How We Use Your Information</h2>
+        <p>We use your information for the following purposes:</p>
+        <ul>
+            <li>To provide, operate, and improve our Services.</li>
+            <li>To personalize content and deliver relevant advertising (including through Google Ads).</li>
+            <li>To communicate with you about updates, promotions, and support.</li>
+            <li>To detect, prevent, and address technical issues or fraudulent activity.</li>
+            <li>To comply with legal obligations and enforce our Terms of Service.</li>
+        </ul>
+
+        <h2>4. Sharing Your Information</h2>
+        <p>We do not sell your personal information. We may share your information in the following situations:</p>
+        <ul>
+            <li><strong>Service Providers:</strong> With trusted vendors who assist us in operating our
+                Services (e.g., hosting, analytics, email delivery, payment processing).</li>
+            <li><strong>Advertising Partners:</strong> With Google Ads and similar platforms to show
+                you relevant advertisements. These partners may use cookies and tracking technologies
+                as described in Section 6.</li>
+            <li><strong>Legal Compliance:</strong> When required by law, court order, or governmental
+                request, or to protect the rights, property, or safety of Amimo LLC, our users, or others.</li>
+            <li><strong>Business Transfers:</strong> In the event of a merger, acquisition, or sale of
+                assets, your information may be transferred as part of the transaction.</li>
+        </ul>
+
+        <h2>5. Your Privacy Rights and Choices</h2>
+        <p>Depending on your jurisdiction, you may have the following rights:</p>
+        <ul>
+            <li><strong>Access &amp; Correction:</strong> Request access to or correction of your
+                personal information.</li>
+            <li><strong>Deletion:</strong> Request deletion of your personal information, subject to
+                legal exceptions.</li>
+            <li><strong>Opt‑Out of Targeted Advertising:</strong> You can opt out of personalized
+                ads by visiting <a href="https://adssettings.google.com" target="_blank" rel="noopener">Google Ad Settings</a>
+                or using the <a href="https://optout.aboutads.info" target="_blank" rel="noopener">NAI Opt‑Out Tool</a>.</li>
+            <li><strong>Cookie Preferences:</strong> You can manage cookie settings through your browser
+                or our cookie consent tool (see Section 6).</li>
+        </ul>
+        <p>
+            To exercise your rights, please contact us at <a href="mailto:privacy@amimo.com">privacy@amimo.com</a>.
+            We will respond within 30 days.
+        </p>
+
+        <h2>6. Cookies and Tracking Technologies</h2>
+        <p>
+            We use cookies and similar technologies to improve functionality, analyze usage, and deliver
+            targeted advertisements. Cookies are small text files stored on your device.
+        </p>
+
+        <h3>Types of Cookies We Use</h3>
+        <ul>
+            <li><strong>Essential Cookies:</strong> Necessary for basic site functionality (e.g., login,
+                security).</li>
+            <li><strong>Analytics Cookies:</strong> Help us understand how users interact with our
+                Services (e.g., Google Analytics).</li>
+            <li><strong>Advertising Cookies:</strong> Used to deliver relevant ads and measure ad
+                performance (e.g., Google Ads, DoubleClick).</li>
+            <li><strong>Preference Cookies:</strong> Remember your settings and preferences.</li>
+        </ul>
+
+        <p>
+            You can control cookies through your browser settings or by using our consent tool.
+            For Google's use of cookies, see
+            <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">
+                Google's Privacy &amp; Terms</a>.
+        </p>
+
+        <div class="highlight-box">
+            <strong>Google Ads &amp; Personalization:</strong> We use Google Ads to serve personalized
+            advertisements. Google may use cookies to show you ads based on your visit to our site and
+            other sites on the Internet. You can opt out of personalized advertising in your Google Ad
+            Settings or by visiting the <a href="https://www.networkadvertising.org/managing/opt_out.asp" target="_blank" rel="noopener">NAI Opt‑Out Page</a>.
+        </div>
+
+        <h2>7. Data Retention</h2>
+        <p>
+            We retain your personal information only as long as necessary to fulfill the purposes
+            outlined in this Privacy Policy, unless a longer retention period is required by law.
+            After that, we will securely delete or anonymize your data.
+        </p>
+
+        <h2>8. Data Security</h2>
+        <p>
+            We implement appropriate technical and organizational measures to protect your information
+            against unauthorized access, loss, or alteration. However, no transmission over the internet
+            is 100% secure, and we cannot guarantee absolute security.
+        </p>
+
+        <h2>9. Children's Privacy</h2>
+        <p>
+            Our Services are not directed to individuals under 16. We do not knowingly collect personal
+            information from children. If we become aware that we have inadvertently collected such
+            information, we will take steps to delete it promptly.
+        </p>
+
+        <h2>10. International Data Transfers</h2>
+        <p>
+            We are based in the United States. If you access our Services from outside the U.S., your
+            information may be transferred to and processed in the U.S., which may have different data
+            protection laws. By using our Services, you consent to this transfer.
+        </p>
+
+        <h2>11. Changes to This Privacy Policy</h2>
+        <p>
+            We may update this Privacy Policy from time to time. We will post the revised policy on this
+            page with a new &quot;Effective Date.&quot; We encourage you to review this page periodically.
+            Your continued use of the Services constitutes acceptance of the updated policy.
+        </p>
+
+        <h2>12. Contact Us</h2>
+        <p>
+            If you have any questions, concerns, or requests regarding this Privacy Policy, please
+            contact our Privacy Team:
+            <br />
+            <strong>Amimo LLC</strong><br />
+            Email: <a href="mailto:privacy@amimo.com">privacy@amimo.com</a><br />
+            Address: 123 Business Ave, Suite 100, Wilmington, DE 19801, USA
+        </p>
+
+        <div class="last-updated">
+            <strong>Last Updated:</strong> June 24, 2026
+        </div>
+
+        <!-- ─── FOOTER ─── -->
+        <footer class="footer">
+            <span>&copy; 2026 Amimo LLC. All rights reserved.</span>
+            <span>
+                <a href="about.html">About</a> &middot;
+                <a href="terms-privacy.html#terms">Terms of Service</a>
+            </span>
+        </footer>
+
     </div>
-  </div>
+    <!-- /.container -->
 
-  <!-- Content -->
-  <div style="padding: 1.5rem; max-width: 800px; margin: 0 auto;">
-    <h1 style="color: var(--accent-blue);"><i class="fas fa-shield-alt"></i> Privacy Policy</h1>
-    <p><strong>Effective date:</strong> June 24, 2025</p>
-    <p>Amimo LLC (&#8220;we&#8221;, &#8220;our&#8221;, &#8220;us&#8221;) respects your privacy. This Privacy Policy explains how we collect, use, and disclose information when you use the Amimo Discovery app (&#8220;the App&#8221;).</p>
-
-    <h2>1. Information We Collect</h2>
-    <ul>
-      <li><strong>IP Address & Location:</strong> We collect your IP address and approximate location (country level) to serve relevant local news.</li>
-      <li><strong>Device Information:</strong> Basic device type, browser, and operating system to ensure compatibility.</li>
-      <li><strong>User‑provided data:</strong> If you save articles, that data is stored locally on your device (not on our servers).</li>
-    </ul>
-
-    <h2>2. How We Use Information</h2>
-    <ul>
-      <li>To deliver personalised news content.</li>
-      <li>To improve the App’s performance and user experience.</li>
-      <li>To comply with legal obligations.</li>
-    </ul>
-
-    <h2>3. Third‑Party Services</h2>
-    <p>We use the following third‑party services that may process your data:</p>
-    <ul>
-      <li><strong>RSS2JSON API</strong> – fetches RSS feeds. Their privacy policy: <a href="https://rss2json.com/privacy" target="_blank">https://rss2json.com/privacy</a></li>
-      <li><strong>Google AdSense</strong> – displays advertisements. They may use cookies or device identifiers to serve relevant ads. See <a href="https://policies.google.com/privacy" target="_blank">Google’s Privacy Policy</a>.</li>
-      <li><strong>IP location APIs</strong> (ipapi.co / ipinfo.io) – used to detect your country for local news.</li>
-    </ul>
-
-    <h2>4. Cookies</h2>
-    <p>We do not set persistent cookies ourselves. However, third‑party services (like AdSense) may set cookies for analytics and ad targeting. You can manage cookie preferences in your browser.</p>
-
-    <h2>5. Your Choices</h2>
-    <ul>
-      <li>You can disable location detection at any time (your browser settings).</li>
-      <li>You can clear saved articles and cached data within the App.</li>
-      <li>You may opt out of personalized ads via Google’s Ad Settings: <a href="https://adssettings.google.com" target="_blank">https://adssettings.google.com</a></li>
-    </ul>
-
-    <h2>6. Data Security</h2>
-    <p>We use HTTPS to encrypt data in transit. Your saved articles are stored only on your device – we do not have access to them.</p>
-
-    <h2>7. Children’s Privacy</h2>
-    <p>Our App is not intended for children under 13. We do not knowingly collect data from children.</p>
-
-    <h2>8. Changes to This Policy</h2>
-    <p>We may update this policy from time to time. The latest version will always be available at this URL.</p>
-
-    <h2>9. Contact Us</h2>
-    <p>If you have any questions, email us at: <a href="mailto:amimollc@gmail.com">amimollc@gmail.com</a></p>
-
-    <hr style="margin: 2rem 0; border-color: var(--ad-bg);">
-    <p style="font-size:0.8rem; color:var(--text-muted);">Amimo LLC · © 2025</p>
-  </div>
-
-  <!-- Footer -->
-  <footer style="margin-top:2rem;">
-    <a href="/amimodiscoverynews/" style="color:var(--accent-blue);text-decoration:none;"><i class="fas fa-home"></i> Home</a> ·
-    <a href="/amimodiscoverynews/about.html" style="color:var(--accent-blue);text-decoration:none;">About</a>
-  </footer>
-
-  <script src="main.js"></script>
 </body>
 </html>
