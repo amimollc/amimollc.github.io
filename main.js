@@ -77,11 +77,3 @@ document.addEventListener('DOMContentLoaded', function() {
             e.preventDefault();
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
-document.getElementById('menuPrivacy')?.addEventListener('click', () => {
-  window.location.href = '/amimodiscoverynews/privacy.html';
-  closeMenu();
-});
-document.getElementById('menuAbout')?.addEventListener('click', () => {
-  window.location.href = '/amimodiscoverynews/about.html';
-  closeMenu();
-});
